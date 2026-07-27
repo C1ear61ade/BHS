@@ -21,6 +21,16 @@
 	"module-dir" : "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir",
 	"sources" : 
 	{
+		"CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/ryans/Desktop/Code/BlackholeSim/Graphics/Camera.cpp"
+		},
+		"CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/ryans/Desktop/Code/BlackholeSim/Graphics/Rendering.cpp"
+		},
 		"CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj" : 
 		{
 			"language" : "CXX",
@@ -40,11 +50,6 @@
 		{
 			"language" : "CXX",
 			"source" : "C:/Users/ryans/Desktop/Code/BlackholeSim/Physics/CelestialBodies.cpp"
-		},
-		"CMakeFiles/BlackholeSim.dir/Renderings/OpenGL.cpp.obj" : 
-		{
-			"language" : "CXX",
-			"source" : "C:/Users/ryans/Desktop/Code/BlackholeSim/Renderings/OpenGL.cpp"
 		},
 		"CMakeFiles/BlackholeSim.dir/main.cpp.obj" : 
 		{

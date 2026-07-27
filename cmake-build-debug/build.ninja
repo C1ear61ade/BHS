@@ -144,26 +144,45 @@ build CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj: CXX_COMPILER_
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
   dyndep = CMakeFiles/BlackholeSim.dir/CXX.dd
 
-build CMakeFiles/BlackholeSim.dir/Renderings/OpenGL.cpp.obj.ddi: CXX_SCAN__BlackholeSim_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Renderings/OpenGL.cpp || cmake_object_order_depends_target_BlackholeSim
-  DEP_FILE = CMakeFiles\BlackholeSim.dir\Renderings\OpenGL.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\Renderings\OpenGL.cpp.obj.ddi
+build CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj.ddi: CXX_SCAN__BlackholeSim_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Graphics/Rendering.cpp || cmake_object_order_depends_target_BlackholeSim
+  DEP_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Rendering.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Rendering.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
-  OBJ_FILE = CMakeFiles\BlackholeSim.dir\Renderings\OpenGL.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\Renderings\OpenGL.cpp.obj.ddi.i
+  OBJ_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Rendering.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Rendering.cpp.obj.ddi.i
 
-build CMakeFiles/BlackholeSim.dir/Renderings/OpenGL.cpp.obj: CXX_COMPILER__BlackholeSim_scanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Renderings/OpenGL.cpp | CMakeFiles/BlackholeSim.dir/Renderings/OpenGL.cpp.obj.modmap || cmake_object_order_depends_target_BlackholeSim CMakeFiles/BlackholeSim.dir/CXX.dd
+build CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj: CXX_COMPILER__BlackholeSim_scanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Graphics/Rendering.cpp | CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj.modmap || cmake_object_order_depends_target_BlackholeSim CMakeFiles/BlackholeSim.dir/CXX.dd
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\BlackholeSim.dir\Renderings\OpenGL.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\Renderings\OpenGL.cpp.obj.modmap
+  DEP_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Rendering.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Rendering.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
-  OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Renderings
+  OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Graphics
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
   dyndep = CMakeFiles/BlackholeSim.dir/CXX.dd
 
-build CMakeFiles/BlackholeSim.dir/CXX.dd | CMakeFiles/BlackholeSim.dir/CXXModules.json CMakeFiles/BlackholeSim.dir/main.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Renderings/OpenGL.cpp.obj.modmap: CXX_DYNDEP__BlackholeSim_Debug CMakeFiles/BlackholeSim.dir/main.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Renderings/OpenGL.cpp.obj.ddi | C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/CXXDependInfo.json
+build CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj.ddi: CXX_SCAN__BlackholeSim_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Graphics/Camera.cpp || cmake_object_order_depends_target_BlackholeSim
+  DEP_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Camera.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Camera.cpp.obj.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
+  OBJ_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Camera.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Camera.cpp.obj.ddi.i
+
+build CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj: CXX_COMPILER__BlackholeSim_scanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Graphics/Camera.cpp | CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj.modmap || cmake_object_order_depends_target_BlackholeSim CMakeFiles/BlackholeSim.dir/CXX.dd
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Camera.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Camera.cpp.obj.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
+  OBJECT_DIR = CMakeFiles\BlackholeSim.dir
+  OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Graphics
+  TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
+  dyndep = CMakeFiles/BlackholeSim.dir/CXX.dd
+
+build CMakeFiles/BlackholeSim.dir/CXX.dd | CMakeFiles/BlackholeSim.dir/CXXModules.json CMakeFiles/BlackholeSim.dir/main.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj.modmap: CXX_DYNDEP__BlackholeSim_Debug CMakeFiles/BlackholeSim.dir/main.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj.ddi | C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -173,7 +192,7 @@ build CMakeFiles/BlackholeSim.dir/CXX.dd | CMakeFiles/BlackholeSim.dir/CXXModule
 #############################################
 # Link the executable BlackholeSim.exe
 
-build BlackholeSim.exe: CXX_EXECUTABLE_LINKER__BlackholeSim_Debug CMakeFiles/BlackholeSim.dir/main.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj CMakeFiles/BlackholeSim.dir/Renderings/OpenGL.cpp.obj
+build BlackholeSim.exe: CXX_EXECUTABLE_LINKER__BlackholeSim_Debug CMakeFiles/BlackholeSim.dir/main.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
