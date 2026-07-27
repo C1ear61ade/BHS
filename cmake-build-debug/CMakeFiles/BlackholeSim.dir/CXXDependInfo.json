@@ -12,7 +12,10 @@
 	"dir-top-src" : "C:/Users/ryans/Desktop/Code/BlackholeSim",
 	"exports" : [],
 	"forward-modules-from-target-dirs" : [],
-	"include-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim"
+	],
 	"language" : "CXX",
 	"linked-target-dirs" : [],
 	"module-dir" : "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir",

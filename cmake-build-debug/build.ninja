@@ -53,6 +53,7 @@ build CMakeFiles/BlackholeSim.dir/main.cpp.obj.ddi: CXX_SCAN__BlackholeSim_Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\main.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\main.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
   OBJ_FILE = CMakeFiles\BlackholeSim.dir\main.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\main.cpp.obj.ddi.i
 
@@ -61,6 +62,7 @@ build CMakeFiles/BlackholeSim.dir/main.cpp.obj: CXX_COMPILER__BlackholeSim_scann
   DEP_FILE = CMakeFiles\BlackholeSim.dir\main.cpp.obj.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\main.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -70,6 +72,7 @@ build CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj.ddi: CXX_SCAN__BlackholeS
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Vector3.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\Math\Vector3.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
   OBJ_FILE = CMakeFiles\BlackholeSim.dir\Math\Vector3.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\Math\Vector3.cpp.obj.ddi.i
 
@@ -78,6 +81,7 @@ build CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj: CXX_COMPILER__BlackholeS
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Vector3.cpp.obj.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\Math\Vector3.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Math
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -87,6 +91,7 @@ build CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj.ddi: CXX_SCAN__BlackholeSi
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Tensor.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\Math\Tensor.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
   OBJ_FILE = CMakeFiles\BlackholeSim.dir\Math\Tensor.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\Math\Tensor.cpp.obj.ddi.i
 
@@ -95,6 +100,7 @@ build CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj: CXX_COMPILER__BlackholeSi
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Tensor.cpp.obj.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\Math\Tensor.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Math
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -104,6 +110,7 @@ build CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj.ddi: CXX_SCAN__BlackholeS
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Matrix4.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\Math\Matrix4.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
   OBJ_FILE = CMakeFiles\BlackholeSim.dir\Math\Matrix4.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\Math\Matrix4.cpp.obj.ddi.i
 
@@ -112,6 +119,7 @@ build CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj: CXX_COMPILER__BlackholeS
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Matrix4.cpp.obj.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\Math\Matrix4.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Math
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -121,6 +129,7 @@ build CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj.ddi: CXX_SCAN_
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Physics\CelestialBodies.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\Physics\CelestialBodies.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
   OBJ_FILE = CMakeFiles\BlackholeSim.dir\Physics\CelestialBodies.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\Physics\CelestialBodies.cpp.obj.ddi.i
 
@@ -129,6 +138,7 @@ build CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj: CXX_COMPILER_
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Physics\CelestialBodies.cpp.obj.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\Physics\CelestialBodies.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Physics
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -138,6 +148,7 @@ build CMakeFiles/BlackholeSim.dir/Renderings/OpenGL.cpp.obj.ddi: CXX_SCAN__Black
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Renderings\OpenGL.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\Renderings\OpenGL.cpp.obj.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
   OBJ_FILE = CMakeFiles\BlackholeSim.dir\Renderings\OpenGL.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\Renderings\OpenGL.cpp.obj.ddi.i
 
@@ -146,6 +157,7 @@ build CMakeFiles/BlackholeSim.dir/Renderings/OpenGL.cpp.obj: CXX_COMPILER__Black
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Renderings\OpenGL.cpp.obj.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\Renderings\OpenGL.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Renderings
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
