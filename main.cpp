@@ -1,4 +1,4 @@
-#include "C:\Users\ryans\Desktop\Code\BlackholeSim\Physics\CelestialBodies.h"
+#include "Physics/CelestialBodies.h"
 #include "Math/Vector3.h"
 
 int main(){

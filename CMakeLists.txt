@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 4.2)
 project(BlackholeSim)
 
+target_include_directories(BlackholeSim PRIVATE ${CMAKE_SOURCE_DIR})
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(BlackholeSim main.cpp
