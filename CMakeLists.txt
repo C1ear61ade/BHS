@@ -12,6 +12,6 @@ add_executable(BlackholeSim main.cpp
         Math/Matrix4.cpp
         Physics/CelestialBodies.cpp
         Physics/CelestialBodies.h
-        Renderings/OpenGL.cpp)
+        Graphics/Rendering.cpp)
 
 target_include_directories(BlackholeSim PRIVATE ${CMAKE_SOURCE_DIR})
