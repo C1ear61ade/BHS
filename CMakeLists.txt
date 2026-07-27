@@ -2,8 +2,10 @@ cmake_minimum_required(VERSION 4.2)
 project(BlackholeSim)
 
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_subdirectory(external/glfw)
+add_subdirectory(externals/glfw)
+find_package(OpenGL REQUIRED)
 
 add_executable(BlackholeSim main.cpp
         Math/Vector3.h
@@ -16,6 +18,12 @@ add_executable(BlackholeSim main.cpp
         Physics/CelestialBodies.h
         Graphics/Rendering.cpp
         Graphics/Camera.cpp
+)
+
+target_link_libraries(BlackholeSim
+        PRIVATE
+        glfw
+        OpenGL::GL
 )
 
 target_link_libraries(BlackholeSim PRIVATE glfw)

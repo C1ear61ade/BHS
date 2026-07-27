@@ -1,3 +1,4 @@
+#include <GLFW/glfw3.h>
 #include "Physics/CelestialBodies.h"
 #include "Math/Vector3.h"
 
