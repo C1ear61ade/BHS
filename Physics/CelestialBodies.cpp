@@ -1,7 +1,7 @@
 #include "Math/Vector3.h"
 #include "CelestialBodies.h"
 
-CelestialBodies::CelestialBodies(std::string name, double mass, const Vector3& position, const Vector3& velocity):name(std::move(name)), mass(mass), position(position), velocity(velocity), acceleration(0, 0, 0){}
+CelestialBodies::CelestialBodies(std::string name, double mass, double radius, const Vector3& position, const Vector3& velocity):name(std::move(name)), mass(mass), position(position), velocity(velocity), acceleration(0, 0, 0){}
 
 // implementation of gravity + gravity acceleration:
 
