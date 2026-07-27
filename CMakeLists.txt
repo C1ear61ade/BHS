@@ -4,7 +4,7 @@ project(BlackholeSim)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_subdirectory(Externals/glfw)
+add_subdirectory(Externals/glfw-3.4/glfw-3.4)
 find_package(OpenGL REQUIRED)
 
 add_executable(BlackholeSim main.cpp
@@ -20,11 +20,5 @@ add_executable(BlackholeSim main.cpp
         Graphics/Camera.cpp
 )
 
-target_link_libraries(BlackholeSim
-        PRIVATE
-        glfw
-        OpenGL::GL
-)
-
-target_link_libraries(BlackholeSim PRIVATE glfw)
+target_link_libraries(BlackholeSim PRIVATE glfw OpenGL::GL)
 target_include_directories(BlackholeSim PRIVATE ${CMAKE_SOURCE_DIR})

@@ -14,7 +14,8 @@
 	"forward-modules-from-target-dirs" : [],
 	"include-dirs" : 
 	[
-		"C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim"
+		"C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim",
+		"C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Externals\\glfw-3.4\\glfw-3.4\\include"
 	],
 	"language" : "CXX",
 	"linked-target-dirs" : [],

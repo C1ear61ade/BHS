@@ -2321,3 +2321,261 @@ events:
       Running the CXX compiler's linker: "C:/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe" "-v"
       GNU ld (GNU Binutils) 2.45.1
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "Externals/glfw-3.4/glfw-3.4/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fb0aj5"
+      binary: "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fb0aj5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fb0aj5'
+        
+        Run Build Command(s): C:/Users/ryans/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_cda60
+        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_cda60.dir/src.c.obj -c C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fb0aj5/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_cda60.dir/src.c.obj -o cmTC_cda60.exe -Wl,--out-implib,libcmTC_cda60.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckIncludeFile.cmake:174 (try_compile)"
+      - "Externals/glfw-3.4/glfw-3.4/src/CMakeLists.txt:274 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jmc2lt"
+      binary: "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jmc2lt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jmc2lt'
+        
+        Run Build Command(s): C:/Users/ryans/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_1c03f
+        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_1c03f.dir/CheckIncludeFile.c.obj -c C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jmc2lt/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_1c03f.dir/CheckIncludeFile.c.obj -o cmTC_1c03f.exe -Wl,--out-implib,libcmTC_1c03f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckIncludeFile.cmake:174 (try_compile)"
+      - "Externals/glfw-3.4/glfw-3.4/src/CMakeLists.txt:275 (check_include_file)"
+    checks:
+      - "Looking for xinput.h"
+    directories:
+      source: "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dn2zgi"
+      binary: "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dn2zgi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "XINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dn2zgi'
+        
+        Run Build Command(s): C:/Users/ryans/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_dd17f
+        [1/2] C:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_dd17f.dir/CheckIncludeFile.c.obj -c C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dn2zgi/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_dd17f.dir/CheckIncludeFile.c.obj -o cmTC_dd17f.exe -Wl,--out-implib,libcmTC_dd17f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindDoxygen.cmake:770 (find_program)"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindDoxygen.cmake:955 (_Doxygen_find_doxygen)"
+      - "Externals/glfw-3.4/glfw-3.4/docs/CMakeLists.txt:35 (find_package)"
+    mode: "program"
+    variable: "DOXYGEN_EXECUTABLE"
+    description: "Doxygen documentation generation tool (https://www.doxygen.nl)"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "doxygen"
+    candidate_directories:
+      - "C:/msys64/mingw64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ryans/scoop/shims/"
+      - "C:/Users/ryans/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/ryans/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/PyCharm 2024.3.2/bin/"
+      - "C:/Users/ryans/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/ryans/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/sbin/"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/"
+      - "C:/Program Files (x86)/BlackholeSim/bin/"
+      - "C:/Program Files (x86)/BlackholeSim/sbin/"
+      - "C:/Program Files (x86)/BlackholeSim/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/Applications/Doxygen.app/Contents/Resources/"
+      - "/Applications/Doxygen.app/Contents/MacOS/"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
+    searched_directories:
+      - "C:/msys64/mingw64/bin/doxygen.com"
+      - "C:/msys64/mingw64/bin/doxygen.exe"
+      - "C:/msys64/mingw64/bin/doxygen"
+      - "C:/Windows/System32/doxygen.com"
+      - "C:/Windows/System32/doxygen.exe"
+      - "C:/Windows/System32/doxygen"
+      - "C:/Windows/doxygen.com"
+      - "C:/Windows/doxygen.exe"
+      - "C:/Windows/doxygen"
+      - "C:/Windows/System32/wbem/doxygen.com"
+      - "C:/Windows/System32/wbem/doxygen.exe"
+      - "C:/Windows/System32/wbem/doxygen"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen"
+      - "C:/Windows/System32/OpenSSH/doxygen.com"
+      - "C:/Windows/System32/OpenSSH/doxygen.exe"
+      - "C:/Windows/System32/OpenSSH/doxygen"
+      - "C:/Program Files/dotnet/doxygen.com"
+      - "C:/Program Files/dotnet/doxygen.exe"
+      - "C:/Program Files/dotnet/doxygen"
+      - "C:/Program Files/Git/cmd/doxygen.com"
+      - "C:/Program Files/Git/cmd/doxygen.exe"
+      - "C:/Program Files/Git/cmd/doxygen"
+      - "C:/Users/ryans/scoop/shims/doxygen.com"
+      - "C:/Users/ryans/scoop/shims/doxygen.exe"
+      - "C:/Users/ryans/scoop/shims/doxygen"
+      - "C:/Users/ryans/AppData/Local/Programs/Python/Launcher/doxygen.com"
+      - "C:/Users/ryans/AppData/Local/Programs/Python/Launcher/doxygen.exe"
+      - "C:/Users/ryans/AppData/Local/Programs/Python/Launcher/doxygen"
+      - "C:/Users/ryans/AppData/Local/Microsoft/WindowsApps/doxygen.com"
+      - "C:/Users/ryans/AppData/Local/Microsoft/WindowsApps/doxygen.exe"
+      - "C:/Users/ryans/AppData/Local/Microsoft/WindowsApps/doxygen"
+      - "C:/Program Files/JetBrains/PyCharm 2024.3.2/bin/doxygen.com"
+      - "C:/Program Files/JetBrains/PyCharm 2024.3.2/bin/doxygen.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2024.3.2/bin/doxygen"
+      - "C:/Users/ryans/AppData/Local/JetBrains/Toolbox/scripts/doxygen.com"
+      - "C:/Users/ryans/AppData/Local/JetBrains/Toolbox/scripts/doxygen.exe"
+      - "C:/Users/ryans/AppData/Local/JetBrains/Toolbox/scripts/doxygen"
+      - "C:/Users/ryans/AppData/Local/Programs/Microsoft VS Code/bin/doxygen.com"
+      - "C:/Users/ryans/AppData/Local/Programs/Microsoft VS Code/bin/doxygen.exe"
+      - "C:/Users/ryans/AppData/Local/Programs/Microsoft VS Code/bin/doxygen"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/ninja/win/x64/doxygen.com"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/ninja/win/x64/doxygen.exe"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/ninja/win/x64/doxygen"
+      - "C:/Program Files/bin/doxygen.com"
+      - "C:/Program Files/bin/doxygen.exe"
+      - "C:/Program Files/bin/doxygen"
+      - "C:/Program Files/sbin/doxygen.com"
+      - "C:/Program Files/sbin/doxygen.exe"
+      - "C:/Program Files/sbin/doxygen"
+      - "C:/Program Files/doxygen.com"
+      - "C:/Program Files/doxygen.exe"
+      - "C:/Program Files/doxygen"
+      - "C:/Program Files (x86)/bin/doxygen.com"
+      - "C:/Program Files (x86)/bin/doxygen.exe"
+      - "C:/Program Files (x86)/bin/doxygen"
+      - "C:/Program Files (x86)/sbin/doxygen.com"
+      - "C:/Program Files (x86)/sbin/doxygen.exe"
+      - "C:/Program Files (x86)/sbin/doxygen"
+      - "C:/Program Files (x86)/doxygen.com"
+      - "C:/Program Files (x86)/doxygen.exe"
+      - "C:/Program Files (x86)/doxygen"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/doxygen.com"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/doxygen.exe"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/doxygen"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/sbin/doxygen.com"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/sbin/doxygen.exe"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/sbin/doxygen"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/doxygen.com"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/doxygen.exe"
+      - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/doxygen"
+      - "C:/Program Files (x86)/BlackholeSim/bin/doxygen.com"
+      - "C:/Program Files (x86)/BlackholeSim/bin/doxygen.exe"
+      - "C:/Program Files (x86)/BlackholeSim/bin/doxygen"
+      - "C:/Program Files (x86)/BlackholeSim/sbin/doxygen.com"
+      - "C:/Program Files (x86)/BlackholeSim/sbin/doxygen.exe"
+      - "C:/Program Files (x86)/BlackholeSim/sbin/doxygen"
+      - "C:/Program Files (x86)/BlackholeSim/doxygen.com"
+      - "C:/Program Files (x86)/BlackholeSim/doxygen.exe"
+      - "C:/Program Files (x86)/BlackholeSim/doxygen"
+      - "/REGISTRY-NOTFOUND/bin/doxygen.com"
+      - "/REGISTRY-NOTFOUND/bin/doxygen.exe"
+      - "/REGISTRY-NOTFOUND/bin/doxygen"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen.com"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen.exe"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen.com"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen.exe"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen.com"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen.exe"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen.com"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen.exe"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ryans\\scoop\\shims"
+        - "C:\\Users\\ryans\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ryans\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2024.3.2\\bin"
+        - "C:\\Users\\ryans\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\ryans\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ryans\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/BlackholeSim"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64"
+        - "C:/Program Files (x86)/BlackholeSim"
+...

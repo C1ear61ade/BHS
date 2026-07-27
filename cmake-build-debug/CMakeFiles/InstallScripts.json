@@ -1,7 +1,10 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/cmake_install.cmake"
+		"C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/cmake_install.cmake",
+		"C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/cmake_install.cmake",
+		"C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src/cmake_install.cmake",
+		"C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/docs/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
