@@ -28,5 +28,11 @@
   "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\BlackholeSim.dir\\Physics\\CelestialBodies.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\BlackholeSim.dir\\Physics\\CelestialBodies.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Physics\\CelestialBodies.cpp",
   "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Physics/CelestialBodies.cpp",
   "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj"
+},
+{
+  "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\BlackholeSim.dir\\Renderings\\OpenGL.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\BlackholeSim.dir\\Renderings\\OpenGL.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Renderings\\OpenGL.cpp",
+  "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Renderings/OpenGL.cpp",
+  "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Renderings/OpenGL.cpp.obj"
 }
 ]

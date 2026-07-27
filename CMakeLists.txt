@@ -11,4 +11,5 @@ add_executable(BlackholeSim main.cpp
         Math/Matrix4.h
         Math/Matrix4.cpp
         Physics/CelestialBodies.cpp
-        Physics/CelestialBodies.h)
+        Physics/CelestialBodies.h
+        Renderings/OpenGL.cpp)
