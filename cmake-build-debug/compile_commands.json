@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\BlackholeSim.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\BlackholeSim.dir\\main.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\main.cpp",
+  "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/main.cpp",
+  "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\BlackholeSim.dir\\Math\\Vector3.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\BlackholeSim.dir\\Math\\Vector3.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Math\\Vector3.cpp",
+  "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Math/Vector3.cpp",
+  "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj"
+},
+{
+  "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\BlackholeSim.dir\\Math\\Tensor.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\BlackholeSim.dir\\Math\\Tensor.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Math\\Tensor.cpp",
+  "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Math/Tensor.cpp",
+  "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj"
+},
+{
+  "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\BlackholeSim.dir\\Math\\Matrix4.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\BlackholeSim.dir\\Math\\Matrix4.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Math\\Matrix4.cpp",
+  "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Math/Matrix4.cpp",
+  "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj"
+},
+{
+  "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\BlackholeSim.dir\\Physics\\CelestialBodies.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\BlackholeSim.dir\\Physics\\CelestialBodies.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Physics\\CelestialBodies.cpp",
+  "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Physics/CelestialBodies.cpp",
+  "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj"
+}
+]
