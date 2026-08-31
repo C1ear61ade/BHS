@@ -68,4 +68,4 @@ BHS mainly uses C++ for the calculations. The GUI and rendering is done using GL
         sudo pacman -S mesa
         ```
 
-***This project is still in progress.***
+**Status:** ***This project is still in progress.***
