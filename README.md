@@ -1,4 +1,4 @@
-# Welcome to BHS👋
+    # Welcome to BHS👋
 
 BHS, or Black Hole Simulator, is a program that can simulate black holes and other celestial bodies in the universe with actual physics.
 
@@ -7,7 +7,7 @@ BHS mainly uses C++ for the calculations. The GUI and rendering is done using GL
 ## Dependencies
 
 ### GLFW
-  - Windows: Go to https://www.glfw.org/download and select 64-bit Windows binaries
+  - Windows: Go to https://www.glfw.org/download and select Source Package
   - MacOS: Run ```brew install glfw``` on your terminal
   - Linux:
     - Debian:

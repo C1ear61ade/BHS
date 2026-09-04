@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/cmake_install.cmake")
+  include("C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

@@ -49,140 +49,122 @@ cmake_ninja_workdir = C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debu
 
 build cmake_object_order_depends_target_BlackholeSim: phony || cmake_object_order_depends_target_glfw
 
-build CMakeFiles/BlackholeSim.dir/main.cpp.obj.ddi: CXX_SCAN__BlackholeSim_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/main.cpp || cmake_object_order_depends_target_BlackholeSim
-  DEP_FILE = CMakeFiles\BlackholeSim.dir\main.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\main.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include
-  OBJ_FILE = CMakeFiles\BlackholeSim.dir\main.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\main.cpp.obj.ddi.i
-
-build CMakeFiles/BlackholeSim.dir/main.cpp.obj: CXX_COMPILER__BlackholeSim_scanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/main.cpp | CMakeFiles/BlackholeSim.dir/main.cpp.obj.modmap || cmake_object_order_depends_target_BlackholeSim CMakeFiles/BlackholeSim.dir/CXX.dd
+build CMakeFiles/BlackholeSim.dir/main.cpp.obj: CXX_COMPILER__BlackholeSim_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/main.cpp || cmake_object_order_depends_target_BlackholeSim
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\main.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\main.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
-  dyndep = CMakeFiles/BlackholeSim.dir/CXX.dd
 
-build CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj.ddi: CXX_SCAN__BlackholeSim_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Math/Vector3.cpp || cmake_object_order_depends_target_BlackholeSim
-  DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Vector3.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\Math\Vector3.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include
-  OBJ_FILE = CMakeFiles\BlackholeSim.dir\Math\Vector3.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\Math\Vector3.cpp.obj.ddi.i
-
-build CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj: CXX_COMPILER__BlackholeSim_scanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Math/Vector3.cpp | CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj.modmap || cmake_object_order_depends_target_BlackholeSim CMakeFiles/BlackholeSim.dir/CXX.dd
+build CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj: CXX_COMPILER__BlackholeSim_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Math/Vector3.cpp || cmake_object_order_depends_target_BlackholeSim
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Vector3.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\Math\Vector3.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Math
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
-  dyndep = CMakeFiles/BlackholeSim.dir/CXX.dd
 
-build CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj.ddi: CXX_SCAN__BlackholeSim_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Math/Tensor.cpp || cmake_object_order_depends_target_BlackholeSim
-  DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Tensor.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\Math\Tensor.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include
-  OBJ_FILE = CMakeFiles\BlackholeSim.dir\Math\Tensor.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\Math\Tensor.cpp.obj.ddi.i
-
-build CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj: CXX_COMPILER__BlackholeSim_scanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Math/Tensor.cpp | CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj.modmap || cmake_object_order_depends_target_BlackholeSim CMakeFiles/BlackholeSim.dir/CXX.dd
-  CONFIG = Debug
-  DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Tensor.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\Math\Tensor.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include
-  OBJECT_DIR = CMakeFiles\BlackholeSim.dir
-  OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Math
-  TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
-  dyndep = CMakeFiles/BlackholeSim.dir/CXX.dd
-
-build CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj.ddi: CXX_SCAN__BlackholeSim_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Math/Matrix4.cpp || cmake_object_order_depends_target_BlackholeSim
-  DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Matrix4.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\Math\Matrix4.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include
-  OBJ_FILE = CMakeFiles\BlackholeSim.dir\Math\Matrix4.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\Math\Matrix4.cpp.obj.ddi.i
-
-build CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj: CXX_COMPILER__BlackholeSim_scanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Math/Matrix4.cpp | CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj.modmap || cmake_object_order_depends_target_BlackholeSim CMakeFiles/BlackholeSim.dir/CXX.dd
+build CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj: CXX_COMPILER__BlackholeSim_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Math/Matrix4.cpp || cmake_object_order_depends_target_BlackholeSim
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Matrix4.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\Math\Matrix4.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Math
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
-  dyndep = CMakeFiles/BlackholeSim.dir/CXX.dd
 
-build CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj.ddi: CXX_SCAN__BlackholeSim_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Physics/CelestialBodies.cpp || cmake_object_order_depends_target_BlackholeSim
-  DEP_FILE = CMakeFiles\BlackholeSim.dir\Physics\CelestialBodies.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\Physics\CelestialBodies.cpp.obj.ddi
+build CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj: CXX_COMPILER__BlackholeSim_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Math/Tensor.cpp || cmake_object_order_depends_target_BlackholeSim
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Tensor.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include
-  OBJ_FILE = CMakeFiles\BlackholeSim.dir\Physics\CelestialBodies.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\Physics\CelestialBodies.cpp.obj.ddi.i
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\BlackholeSim.dir
+  OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Math
+  TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
 
-build CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj: CXX_COMPILER__BlackholeSim_scanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Physics/CelestialBodies.cpp | CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj.modmap || cmake_object_order_depends_target_BlackholeSim CMakeFiles/BlackholeSim.dir/CXX.dd
+build CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj: CXX_COMPILER__BlackholeSim_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Physics/CelestialBodies.cpp || cmake_object_order_depends_target_BlackholeSim
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Physics\CelestialBodies.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\Physics\CelestialBodies.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Physics
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
-  dyndep = CMakeFiles/BlackholeSim.dir/CXX.dd
 
-build CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj.ddi: CXX_SCAN__BlackholeSim_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Graphics/Rendering.cpp || cmake_object_order_depends_target_BlackholeSim
-  DEP_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Rendering.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Rendering.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include
-  OBJ_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Rendering.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Rendering.cpp.obj.ddi.i
-
-build CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj: CXX_COMPILER__BlackholeSim_scanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Graphics/Rendering.cpp | CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj.modmap || cmake_object_order_depends_target_BlackholeSim CMakeFiles/BlackholeSim.dir/CXX.dd
+build CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj: CXX_COMPILER__BlackholeSim_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Graphics/Rendering.cpp || cmake_object_order_depends_target_BlackholeSim
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Rendering.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Rendering.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Graphics
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
-  dyndep = CMakeFiles/BlackholeSim.dir/CXX.dd
 
-build CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj.ddi: CXX_SCAN__BlackholeSim_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Graphics/Camera.cpp || cmake_object_order_depends_target_BlackholeSim
-  DEP_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Camera.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Camera.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include
-  OBJ_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Camera.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Camera.cpp.obj.ddi.i
-
-build CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj: CXX_COMPILER__BlackholeSim_scanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Graphics/Camera.cpp | CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj.modmap || cmake_object_order_depends_target_BlackholeSim CMakeFiles/BlackholeSim.dir/CXX.dd
+build CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj: CXX_COMPILER__BlackholeSim_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Graphics/Camera.cpp || cmake_object_order_depends_target_BlackholeSim
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Camera.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Camera.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Graphics
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
-  dyndep = CMakeFiles/BlackholeSim.dir/CXX.dd
 
-build CMakeFiles/BlackholeSim.dir/CXX.dd | CMakeFiles/BlackholeSim.dir/CXXModules.json CMakeFiles/BlackholeSim.dir/main.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj.modmap CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj.modmap: CXX_DYNDEP__BlackholeSim_Debug CMakeFiles/BlackholeSim.dir/main.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj.ddi CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj.ddi | C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/CXXDependInfo.json
+build CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui.cpp.obj: CXX_COMPILER__BlackholeSim_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/imgui.cpp || cmake_object_order_depends_target_BlackholeSim
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\BlackholeSim.dir\Externals\imgui\imgui.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\BlackholeSim.dir
+  OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Externals\imgui
+  TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
+
+build CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_draw.cpp.obj: CXX_COMPILER__BlackholeSim_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/imgui_draw.cpp || cmake_object_order_depends_target_BlackholeSim
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\BlackholeSim.dir\Externals\imgui\imgui_draw.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\BlackholeSim.dir
+  OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Externals\imgui
+  TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
+
+build CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_tables.cpp.obj: CXX_COMPILER__BlackholeSim_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/imgui_tables.cpp || cmake_object_order_depends_target_BlackholeSim
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\BlackholeSim.dir\Externals\imgui\imgui_tables.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\BlackholeSim.dir
+  OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Externals\imgui
+  TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
+
+build CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__BlackholeSim_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_BlackholeSim
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\BlackholeSim.dir\Externals\imgui\imgui_widgets.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\BlackholeSim.dir
+  OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Externals\imgui
+  TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
+
+build CMakeFiles/BlackholeSim.dir/Externals/imgui/backends/imgui_impl_glfw.cpp.obj: CXX_COMPILER__BlackholeSim_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends/imgui_impl_glfw.cpp || cmake_object_order_depends_target_BlackholeSim
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\BlackholeSim.dir\Externals\imgui\backends\imgui_impl_glfw.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\BlackholeSim.dir
+  OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Externals\imgui\backends
+  TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
+
+build CMakeFiles/BlackholeSim.dir/Externals/imgui/backends/imgui_impl_opengl3.cpp.obj: CXX_COMPILER__BlackholeSim_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_BlackholeSim
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\BlackholeSim.dir\Externals\imgui\backends\imgui_impl_opengl3.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  OBJECT_DIR = CMakeFiles\BlackholeSim.dir
+  OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Externals\imgui\backends
+  TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
 
 
 # =============================================================================
@@ -192,10 +174,10 @@ build CMakeFiles/BlackholeSim.dir/CXX.dd | CMakeFiles/BlackholeSim.dir/CXXModule
 #############################################
 # Link the executable BlackholeSim.exe
 
-build BlackholeSim.exe: CXX_EXECUTABLE_LINKER__BlackholeSim_Debug CMakeFiles/BlackholeSim.dir/main.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj | Externals/glfw-3.4/glfw-3.4/src/libglfw3.a || Externals/glfw-3.4/glfw-3.4/src/libglfw3.a
+build BlackholeSim.exe: CXX_EXECUTABLE_LINKER__BlackholeSim_Debug CMakeFiles/BlackholeSim.dir/main.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_draw.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_tables.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_widgets.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/backends/imgui_impl_glfw.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/backends/imgui_impl_opengl3.cpp.obj | _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a
   CONFIG = Debug
   FLAGS = -g
-  LINK_LIBRARIES = Externals/glfw-3.4/glfw-3.4/src/libglfw3.a  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = _deps/glfw-build/src/libglfw3.a  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -278,83 +260,83 @@ build install/strip: phony CMakeFiles/install/strip.util
 #############################################
 # Utility command for uninstall
 
-build Externals/glfw-3.4/glfw-3.4/uninstall: phony Externals/glfw-3.4/glfw-3.4/CMakeFiles/uninstall
+build _deps/glfw-build/uninstall: phony _deps/glfw-build/CMakeFiles/uninstall
 
 
 #############################################
 # Utility command for edit_cache
 
-build Externals/glfw-3.4/glfw-3.4/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4 && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+build _deps/glfw-build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\_deps\glfw-build && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build Externals/glfw-3.4/glfw-3.4/edit_cache: phony Externals/glfw-3.4/glfw-3.4/CMakeFiles/edit_cache.util
+build _deps/glfw-build/edit_cache: phony _deps/glfw-build/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build Externals/glfw-3.4/glfw-3.4/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4 && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\ryans\Desktop\Code\BlackholeSim -BC:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug"
+build _deps/glfw-build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\_deps\glfw-build && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\ryans\Desktop\Code\BlackholeSim -BC:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build Externals/glfw-3.4/glfw-3.4/rebuild_cache: phony Externals/glfw-3.4/glfw-3.4/CMakeFiles/rebuild_cache.util
+build _deps/glfw-build/rebuild_cache: phony _deps/glfw-build/CMakeFiles/rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build Externals/glfw-3.4/glfw-3.4/list_install_components: phony
+build _deps/glfw-build/list_install_components: phony
 
 
 #############################################
 # Utility command for install
 
-build Externals/glfw-3.4/glfw-3.4/CMakeFiles/install.util: CUSTOM_COMMAND Externals/glfw-3.4/glfw-3.4/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4 && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
+build _deps/glfw-build/CMakeFiles/install.util: CUSTOM_COMMAND _deps/glfw-build/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\_deps\glfw-build && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build Externals/glfw-3.4/glfw-3.4/install: phony Externals/glfw-3.4/glfw-3.4/CMakeFiles/install.util
+build _deps/glfw-build/install: phony _deps/glfw-build/CMakeFiles/install.util
 
 
 #############################################
 # Utility command for install/local
 
-build Externals/glfw-3.4/glfw-3.4/CMakeFiles/install/local.util: CUSTOM_COMMAND Externals/glfw-3.4/glfw-3.4/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4 && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build _deps/glfw-build/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/glfw-build/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\_deps\glfw-build && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build Externals/glfw-3.4/glfw-3.4/install/local: phony Externals/glfw-3.4/glfw-3.4/CMakeFiles/install/local.util
+build _deps/glfw-build/install/local: phony _deps/glfw-build/CMakeFiles/install/local.util
 
 
 #############################################
 # Utility command for install/strip
 
-build Externals/glfw-3.4/glfw-3.4/CMakeFiles/install/strip.util: CUSTOM_COMMAND Externals/glfw-3.4/glfw-3.4/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4 && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+build _deps/glfw-build/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/glfw-build/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\_deps\glfw-build && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
 
-build Externals/glfw-3.4/glfw-3.4/install/strip: phony Externals/glfw-3.4/glfw-3.4/CMakeFiles/install/strip.util
+build _deps/glfw-build/install/strip: phony _deps/glfw-build/CMakeFiles/install/strip.util
 
 
 #############################################
-# Custom command for Externals\glfw-3.4\glfw-3.4\CMakeFiles\uninstall
+# Custom command for _deps\glfw-build\CMakeFiles\uninstall
 
-build Externals/glfw-3.4/glfw-3.4/CMakeFiles/uninstall | ${cmake_ninja_workdir}Externals/glfw-3.4/glfw-3.4/CMakeFiles/uninstall: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4 && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/cmake_uninstall.cmake"
+build _deps/glfw-build/CMakeFiles/uninstall | ${cmake_ninja_workdir}_deps/glfw-build/CMakeFiles/uninstall: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\_deps\glfw-build && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/cmake_uninstall.cmake"
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/CMakeLists.txt
+# C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -366,215 +348,215 @@ build Externals/glfw-3.4/glfw-3.4/CMakeFiles/uninstall | ${cmake_ninja_workdir}E
 
 build cmake_object_order_depends_target_glfw: phony || .
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/context.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/context.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\context.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\context.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/init.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/init.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\init.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\init.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/input.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/input.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\input.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\input.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/monitor.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/monitor.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\monitor.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\monitor.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/platform.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/platform.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\platform.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\platform.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/vulkan.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/vulkan.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/window.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/window.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\window.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\window.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/egl_context.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/egl_context.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/osmesa_context.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/null_init.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/null_init.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\null_init.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\null_init.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/null_monitor.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/null_monitor.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\null_monitor.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\null_monitor.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/null_window.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/null_window.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\null_window.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\null_window.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/null_joystick.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/null_joystick.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\null_joystick.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\null_joystick.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/win32_module.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/win32_module.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\win32_module.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_module.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/win32_time.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/win32_time.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/win32_thread.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/win32_thread.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/win32_init.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/win32_init.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/win32_joystick.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/win32_monitor.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/win32_window.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/win32_window.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/wgl_context.c || cmake_object_order_depends_target_glfw
+build _deps/glfw-build/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src/wgl_context.c || cmake_object_order_depends_target_glfw
   CONFIG = Debug
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
+  DEP_FILE = _deps\glfw-build\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
   FLAGS = -g -std=c99 -fdiagnostics-color=always -Wall
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/src -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
 
 # =============================================================================
@@ -582,179 +564,109 @@ build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_C
 
 
 #############################################
-# Link the static library Externals\glfw-3.4\glfw-3.4\src\libglfw3.a
+# Link the static library _deps\glfw-build\src\libglfw3.a
 
-build Externals/glfw-3.4/glfw-3.4/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/win32_module.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/win32_time.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/win32_thread.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/win32_init.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/win32_joystick.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/win32_monitor.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/win32_window.c.obj Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/glfw.dir/wgl_context.c.obj
+build _deps/glfw-build/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug _deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/null_init.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/null_monitor.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/null_window.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/null_joystick.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_module.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_time.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_thread.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_init.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_window.c.obj _deps/glfw-build/src/CMakeFiles/glfw.dir/wgl_context.c.obj
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Externals\glfw-3.4\glfw-3.4\src\libglfw3.a
+  TARGET_FILE = _deps\glfw-build\src\libglfw3.a
   TARGET_PDB = glfw3.a.dbg
-  TARGET_SUPPORT_DIR = Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\glfw.dir
+  TARGET_SUPPORT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
 
 
 #############################################
 # Utility command for update_mappings
 
-build Externals/glfw-3.4/glfw-3.4/src/update_mappings: phony Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/update_mappings
+build _deps/glfw-build/src/update_mappings: phony _deps/glfw-build/src/CMakeFiles/update_mappings
 
 
 #############################################
 # Utility command for edit_cache
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4\src && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+build _deps/glfw-build/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\_deps\glfw-build\src && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build Externals/glfw-3.4/glfw-3.4/src/edit_cache: phony Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/edit_cache.util
+build _deps/glfw-build/src/edit_cache: phony _deps/glfw-build/src/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4\src && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\ryans\Desktop\Code\BlackholeSim -BC:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug"
+build _deps/glfw-build/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\_deps\glfw-build\src && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\ryans\Desktop\Code\BlackholeSim -BC:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build Externals/glfw-3.4/glfw-3.4/src/rebuild_cache: phony Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/rebuild_cache.util
+build _deps/glfw-build/src/rebuild_cache: phony _deps/glfw-build/src/CMakeFiles/rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build Externals/glfw-3.4/glfw-3.4/src/list_install_components: phony
+build _deps/glfw-build/src/list_install_components: phony
 
 
 #############################################
 # Utility command for install
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/install.util: CUSTOM_COMMAND Externals/glfw-3.4/glfw-3.4/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4\src && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
+build _deps/glfw-build/src/CMakeFiles/install.util: CUSTOM_COMMAND _deps/glfw-build/src/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\_deps\glfw-build\src && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build Externals/glfw-3.4/glfw-3.4/src/install: phony Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/install.util
+build _deps/glfw-build/src/install: phony _deps/glfw-build/src/CMakeFiles/install.util
 
 
 #############################################
 # Utility command for install/local
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/install/local.util: CUSTOM_COMMAND Externals/glfw-3.4/glfw-3.4/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4\src && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build _deps/glfw-build/src/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/glfw-build/src/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\_deps\glfw-build\src && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build Externals/glfw-3.4/glfw-3.4/src/install/local: phony Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/install/local.util
+build _deps/glfw-build/src/install/local: phony _deps/glfw-build/src/CMakeFiles/install/local.util
 
 
 #############################################
 # Utility command for install/strip
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND Externals/glfw-3.4/glfw-3.4/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4\src && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+build _deps/glfw-build/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/glfw-build/src/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\_deps\glfw-build\src && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
 
-build Externals/glfw-3.4/glfw-3.4/src/install/strip: phony Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/install/strip.util
+build _deps/glfw-build/src/install/strip: phony _deps/glfw-build/src/CMakeFiles/install/strip.util
 
 
 #############################################
-# Custom command for Externals\glfw-3.4\glfw-3.4\src\CMakeFiles\update_mappings
+# Custom command for _deps\glfw-build\src\CMakeFiles\update_mappings
 
-build Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}Externals/glfw-3.4/glfw-3.4/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4\src && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
+build _deps/glfw-build/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}_deps/glfw-build/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\_deps\glfw-src\src && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
   DESC = Updating gamepad mappings from upstream repository
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/CMakeLists.txt
-# =============================================================================
-
-
-#############################################
-# Utility command for edit_cache
-
-build Externals/glfw-3.4/glfw-3.4/docs/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4\docs && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build Externals/glfw-3.4/glfw-3.4/docs/edit_cache: phony Externals/glfw-3.4/glfw-3.4/docs/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build Externals/glfw-3.4/glfw-3.4/docs/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4\docs && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\ryans\Desktop\Code\BlackholeSim -BC:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build Externals/glfw-3.4/glfw-3.4/docs/rebuild_cache: phony Externals/glfw-3.4/glfw-3.4/docs/CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Utility command for list_install_components
-
-build Externals/glfw-3.4/glfw-3.4/docs/list_install_components: phony
-
-
-#############################################
-# Utility command for install
-
-build Externals/glfw-3.4/glfw-3.4/docs/CMakeFiles/install.util: CUSTOM_COMMAND Externals/glfw-3.4/glfw-3.4/docs/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4\docs && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build Externals/glfw-3.4/glfw-3.4/docs/install: phony Externals/glfw-3.4/glfw-3.4/docs/CMakeFiles/install.util
-
-
-#############################################
-# Utility command for install/local
-
-build Externals/glfw-3.4/glfw-3.4/docs/CMakeFiles/install/local.util: CUSTOM_COMMAND Externals/glfw-3.4/glfw-3.4/docs/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4\docs && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build Externals/glfw-3.4/glfw-3.4/docs/install/local: phony Externals/glfw-3.4/glfw-3.4/docs/CMakeFiles/install/local.util
-
-
-#############################################
-# Utility command for install/strip
-
-build Externals/glfw-3.4/glfw-3.4/docs/CMakeFiles/install/strip.util: CUSTOM_COMMAND Externals/glfw-3.4/glfw-3.4/docs/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\ryans\Desktop\Code\BlackholeSim\cmake-build-debug\Externals\glfw-3.4\glfw-3.4\docs && C:\Users\ryans\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build Externals/glfw-3.4/glfw-3.4/docs/install/strip: phony Externals/glfw-3.4/glfw-3.4/docs/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Target aliases.
 
 build BlackholeSim: phony BlackholeSim.exe
 
-build glfw: phony Externals/glfw-3.4/glfw-3.4/src/libglfw3.a
+build glfw: phony _deps/glfw-build/src/libglfw3.a
 
-build libglfw3.a: phony Externals/glfw-3.4/glfw-3.4/src/libglfw3.a
+build libglfw3.a: phony _deps/glfw-build/src/libglfw3.a
 
-build uninstall: phony Externals/glfw-3.4/glfw-3.4/uninstall
+build uninstall: phony _deps/glfw-build/uninstall
 
-build update_mappings: phony Externals/glfw-3.4/glfw-3.4/src/update_mappings
+build update_mappings: phony _deps/glfw-build/src/update_mappings
 
 # =============================================================================
 # Folder targets.
@@ -764,56 +676,21 @@ build update_mappings: phony Externals/glfw-3.4/glfw-3.4/src/update_mappings
 #############################################
 # Folder: C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug
 
-build codegen: phony Externals/glfw-3.4/glfw-3.4/codegen
+build all: phony BlackholeSim.exe _deps/glfw-build/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4
+# Folder: C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build
 
-build Externals/glfw-3.4/glfw-3.4/codegen: phony Externals/glfw-3.4/glfw-3.4/src/codegen Externals/glfw-3.4/glfw-3.4/docs/codegen
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/docs
-
-build Externals/glfw-3.4/glfw-3.4/docs/codegen: phony
+build _deps/glfw-build/all: phony _deps/glfw-build/src/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
+# Folder: C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src
 
-build Externals/glfw-3.4/glfw-3.4/src/codegen: phony
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug
-
-build all: phony BlackholeSim.exe Externals/glfw-3.4/glfw-3.4/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4
-
-build Externals/glfw-3.4/glfw-3.4/all: phony Externals/glfw-3.4/glfw-3.4/src/all Externals/glfw-3.4/glfw-3.4/docs/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/docs
-
-build Externals/glfw-3.4/glfw-3.4/docs/all: phony
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src
-
-build Externals/glfw-3.4/glfw-3.4/src/all: phony Externals/glfw-3.4/glfw-3.4/src/libglfw3.a
+build _deps/glfw-build/src/all: phony _deps/glfw-build/src/libglfw3.a
 
 # =============================================================================
 # Built-in targets
@@ -822,14 +699,14 @@ build Externals/glfw-3.4/glfw-3.4/src/all: phony Externals/glfw-3.4/glfw-3.4/src
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/cmake_install.cmake C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/cmake_install.cmake C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/src/cmake_install.cmake C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/Externals/glfw-3.4/glfw-3.4/docs/cmake_install.cmake: RERUN_CMAKE | C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDependentOption.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeGenericSystem.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeRCInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckIncludeFile.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckLibraryExists.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindDoxygen.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindOpenGL.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPackageMessage.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindThreads.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/GNUInstallDirs.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-windres.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/ryans/Desktop/Code/BlackholeSim/CMakeLists.txt C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/CMakeLists.txt C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/CMake/cmake_uninstall.cmake.in C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/CMake/glfw3.pc.in C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/CMake/glfw3Config.cmake.in C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/docs/CMakeLists.txt C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/CMakeLists.txt CMakeCache.txt CMakeFiles/4.2.2/CMakeCCompiler.cmake CMakeFiles/4.2.2/CMakeCXXCompiler.cmake CMakeFiles/4.2.2/CMakeRCCompiler.cmake CMakeFiles/4.2.2/CMakeSystem.cmake
+build build.ninja C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/cmake_install.cmake C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/cmake_install.cmake C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build/src/cmake_install.cmake: RERUN_CMAKE | C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDependentOption.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeGenericSystem.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeRCInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckIncludeFile.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckLibraryExists.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/shared_internal_commands.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FetchContent.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FetchContent/CMakeLists.cmake.in C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindGit.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindOpenGL.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPackageMessage.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindThreads.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/GNUInstallDirs.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-windres.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/ryans/Desktop/Code/BlackholeSim/CMakeLists.txt CMakeCache.txt CMakeFiles/4.2.2/CMakeCCompiler.cmake CMakeFiles/4.2.2/CMakeCXXCompiler.cmake CMakeFiles/4.2.2/CMakeRCCompiler.cmake CMakeFiles/4.2.2/CMakeSystem.cmake _deps/glfw-src/CMakeLists.txt _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/src/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDependentOption.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeGenericSystem.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeRCInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckIncludeFile.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckLibraryExists.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindDoxygen.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindOpenGL.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPackageMessage.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindThreads.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/GNUInstallDirs.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-windres.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/ryans/Desktop/Code/BlackholeSim/CMakeLists.txt C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/CMakeLists.txt C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/CMake/cmake_uninstall.cmake.in C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/CMake/glfw3.pc.in C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/CMake/glfw3Config.cmake.in C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/docs/CMakeLists.txt C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glfw-3.4/glfw-3.4/src/CMakeLists.txt CMakeCache.txt CMakeFiles/4.2.2/CMakeCCompiler.cmake CMakeFiles/4.2.2/CMakeCXXCompiler.cmake CMakeFiles/4.2.2/CMakeRCCompiler.cmake CMakeFiles/4.2.2/CMakeSystem.cmake: phony
+build C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCXXInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDependentOption.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeGenericSystem.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeRCInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckIncludeFile.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/CheckLibraryExists.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Compiler/GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/ExternalProject/shared_internal_commands.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FetchContent.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FetchContent/CMakeLists.cmake.in C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindGit.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindOpenGL.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindPackageMessage.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/FindThreads.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/GNUInstallDirs.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Linker/GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-C.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows-windres.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/Windows.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake C$:/Users/ryans/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/ryans/Desktop/Code/BlackholeSim/CMakeLists.txt CMakeCache.txt CMakeFiles/4.2.2/CMakeCCompiler.cmake CMakeFiles/4.2.2/CMakeCXXCompiler.cmake CMakeFiles/4.2.2/CMakeRCCompiler.cmake CMakeFiles/4.2.2/CMakeSystem.cmake _deps/glfw-src/CMakeLists.txt _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/src/CMakeLists.txt: phony
 
 
 #############################################
