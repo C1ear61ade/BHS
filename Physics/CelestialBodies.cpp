@@ -19,8 +19,8 @@ Vector3 CelestialBodies::Gravity(const CelestialBodies& other) const {
 
 };
 
-void CelestialBodies::update(double dt) {
-    acceleration = Gravity(*this);
+void CelestialBodies::update(const CelestialBodies& other, double dt) {
+    acceleration = Gravity(other);
     velocity = velocity + acceleration * dt;
     position = position + velocity * dt;
 };

@@ -17,6 +17,8 @@ public:
 
     [[nodiscard]] Vector3 Gravity(const CelestialBodies& other) const;
 
-    void update(double dt);
+    void renderSphere() const;
+
+    void update(const CelestialBodies& other, double dt);
 
 };
