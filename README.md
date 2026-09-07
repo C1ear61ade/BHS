@@ -2,7 +2,7 @@
 
 BHS, or Black Hole Simulator, is a program that can simulate black holes and other celestial bodies in the universe with actual physics.
 
-BHS mainly uses C++ for the calculations. The GUI and rendering is done using GLFW and OpenGL.
+BHS mainly uses C++ for the calculations. The GUI and rendering is done using ImGUI, GLFW and OpenGL.
 
 ## Dependencies
 
