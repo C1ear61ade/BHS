@@ -3,6 +3,14 @@
 #include <string>
 
 class CelestialBodies {
+
+private:
+    unsigned int VAO = 0;
+    unsigned int VBO = 0;
+    unsigned int EBO = 0;
+    unsigned int indiceCount = 0;
+
+
 public:
 
     std::string name;
@@ -17,6 +25,7 @@ public:
 
     [[nodiscard]] Vector3 Gravity(const CelestialBodies& other) const;
 
+    void initSphere();
     void renderSphere() const;
 
     void update(const CelestialBodies& other, double dt);

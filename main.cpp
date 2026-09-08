@@ -1,4 +1,3 @@
-#include "Graphics/Rendering.cpp"
 #include "Physics/CelestialBodies.h"
 #include "Math/Vector3.h"
 #include "Graphics/GUI-initiator.h"
@@ -31,6 +30,8 @@ int main(){
     CelestialBodies Earth("Earth",5.9722e24,6371000.0,Vector3(1.496e11, 0, 0),Vector3(0 ,29780 ,0));
     CelestialBodies Sun("Sun", 1.989e30, 696340000.0, Vector3(0, 0, 0), Vector3(0, 0, 0));
 
+    Earth.initSphere();
+    Sun.initSphere();
 
     //UI creation:
     while (!glfwWindowShouldClose(window)) {
@@ -42,6 +43,10 @@ int main(){
 
         glClearColor(0.0f,0.0f,0.0f,1.0f); //Note: Parameters are RGB and the last one is opacity
         glClear(GL_COLOR_BUFFER_BIT);
+
+        //Render in bodies:
+        Earth.renderSphere();
+        Sun.renderSphere();
 
         //UI window for parameters:
         ImGui::NewFrame();

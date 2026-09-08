@@ -1,79 +1,85 @@
 [
 {
   "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\main.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\main.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\cc.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -g -fdiagnostics-color=always -o CMakeFiles\\glad.dir\\Externals\\glad-generated\\src\\gl.c.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Externals\\glad-generated\\src\\gl.c",
+  "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/src/gl.c",
+  "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/glad.dir/Externals/glad-generated/src/gl.c.obj"
+},
+{
+  "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\main.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\main.cpp",
   "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/main.cpp",
   "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/main.cpp.obj"
 },
 {
   "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Math\\Vector3.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Math\\Vector3.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Math\\Vector3.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Math\\Vector3.cpp",
   "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Math/Vector3.cpp",
   "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj"
 },
 {
   "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Math\\Matrix4.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Math\\Matrix4.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Math\\Matrix4.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Math\\Matrix4.cpp",
   "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Math/Matrix4.cpp",
   "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj"
 },
 {
   "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Math\\Tensor.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Math\\Tensor.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Math\\Tensor.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Math\\Tensor.cpp",
   "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Math/Tensor.cpp",
   "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj"
 },
 {
   "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Physics\\CelestialBodies.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Physics\\CelestialBodies.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Physics\\CelestialBodies.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Physics\\CelestialBodies.cpp",
   "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Physics/CelestialBodies.cpp",
   "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj"
 },
 {
   "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Graphics\\Rendering.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Graphics\\Rendering.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Graphics\\Rendering.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Graphics\\Rendering.cpp",
   "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Graphics/Rendering.cpp",
   "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj"
 },
 {
   "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Graphics\\Camera.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Graphics\\Camera.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Graphics\\Camera.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Graphics\\Camera.cpp",
   "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Graphics/Camera.cpp",
   "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj"
 },
 {
   "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Externals\\imgui\\imgui.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Externals\\imgui\\imgui.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Externals\\imgui\\imgui.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Externals\\imgui\\imgui.cpp",
   "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/imgui.cpp",
   "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui.cpp.obj"
 },
 {
   "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Externals\\imgui\\imgui_draw.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Externals\\imgui\\imgui_draw.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Externals\\imgui\\imgui_draw.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Externals\\imgui\\imgui_draw.cpp",
   "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/imgui_draw.cpp",
   "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_draw.cpp.obj"
 },
 {
   "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Externals\\imgui\\imgui_tables.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Externals\\imgui\\imgui_tables.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Externals\\imgui\\imgui_tables.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Externals\\imgui\\imgui_tables.cpp",
   "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/imgui_tables.cpp",
   "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_tables.cpp.obj"
 },
 {
   "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Externals\\imgui\\imgui_widgets.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Externals\\imgui\\imgui_widgets.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Externals\\imgui\\imgui_widgets.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Externals\\imgui\\imgui_widgets.cpp",
   "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/imgui_widgets.cpp",
   "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_widgets.cpp.obj"
 },
 {
   "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Externals\\imgui\\backends\\imgui_impl_glfw.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Externals\\imgui\\backends\\imgui_impl_glfw.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Externals\\imgui\\backends\\imgui_impl_glfw.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Externals\\imgui\\backends\\imgui_impl_glfw.cpp",
   "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends/imgui_impl_glfw.cpp",
   "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Externals/imgui/backends/imgui_impl_glfw.cpp.obj"
 },
 {
   "directory": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug",
-  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Externals\\imgui\\backends\\imgui_impl_opengl3.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Externals\\imgui\\backends\\imgui_impl_opengl3.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\BlackholeSim.dir\\Externals\\imgui\\backends\\imgui_impl_opengl3.cpp.obj -c C:\\Users\\ryans\\Desktop\\Code\\BlackholeSim\\Externals\\imgui\\backends\\imgui_impl_opengl3.cpp",
   "file": "C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends/imgui_impl_opengl3.cpp",
   "output": "C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/CMakeFiles/BlackholeSim.dir/Externals/imgui/backends/imgui_impl_opengl3.cpp.obj"
 },
