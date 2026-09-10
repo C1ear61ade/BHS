@@ -3,7 +3,6 @@
 #include <cmath>
 #include <glad/gl.h>
 
-
 void CelestialBodies::initSphere() {
     struct coors {
         float x, y, z;
@@ -13,8 +12,6 @@ void CelestialBodies::initSphere() {
     std::vector<unsigned int> indices;
 
     constexpr int latitudeSegments = 32, longitudeSegments = 32;
-    unsigned int VAO = 0, VBO = 0, EBO = 0;
-
     //Generate and saving Vertices Coordinates:
     for (int i = 0; i <= longitudeSegments; i++) {
         double alpha = M_PI * i / latitudeSegments;
