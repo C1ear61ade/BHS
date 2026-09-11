@@ -33,6 +33,16 @@ set(IMGUI_SOURCES
         ${IMGUI_DIR}/backends/imgui_impl_opengl3.cpp
 )
 
+set(GLAD_DIR ${CMAKE_SOURCE_DIR}/Externals/glad-generated)
+
+add_library(glad
+        ${GLAD_DIR}/src/gl.c
+)
+
+target_include_directories(glad PUBLIC
+        ${GLAD_DIR}/include
+)
+
 add_executable(BlackholeSim
 
         main.cpp
@@ -56,7 +66,7 @@ target_include_directories(BlackholeSim PRIVATE
 )
 
 target_link_libraries(BlackholeSim PRIVATE
-
+        glad
         glfw
         OpenGL::GL
 )

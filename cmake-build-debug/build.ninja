@@ -41,19 +41,55 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target glad
+
+
+#############################################
+# Order-only phony target for glad
+
+build cmake_object_order_depends_target_glad: phony || .
+
+build CMakeFiles/glad.dir/Externals/glad-generated/src/gl.c.obj: C_COMPILER__glad_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/src/gl.c || cmake_object_order_depends_target_glad
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\glad.dir\Externals\glad-generated\src\gl.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include
+  OBJECT_DIR = CMakeFiles\glad.dir
+  OBJECT_FILE_DIR = CMakeFiles\glad.dir\Externals\glad-generated\src
+  TARGET_SUPPORT_DIR = CMakeFiles\glad.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target glad
+
+
+#############################################
+# Link the static library libglad.a
+
+build libglad.a: C_STATIC_LIBRARY_LINKER__glad_Debug CMakeFiles/glad.dir/Externals/glad-generated/src/gl.c.obj
+  CONFIG = Debug
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles\glad.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = libglad.a
+  TARGET_PDB = glad.a.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\glad.dir
+
+# =============================================================================
 # Object build statements for EXECUTABLE target BlackholeSim
 
 
 #############################################
 # Order-only phony target for BlackholeSim
 
-build cmake_object_order_depends_target_BlackholeSim: phony || cmake_object_order_depends_target_glfw
+build cmake_object_order_depends_target_BlackholeSim: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
 
 build CMakeFiles/BlackholeSim.dir/main.cpp.obj: CXX_COMPILER__BlackholeSim_unscanned_Debug C$:/Users/ryans/Desktop/Code/BlackholeSim/main.cpp || cmake_object_order_depends_target_BlackholeSim
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -62,7 +98,7 @@ build CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj: CXX_COMPILER__BlackholeS
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Vector3.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Math
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -71,7 +107,7 @@ build CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj: CXX_COMPILER__BlackholeS
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Matrix4.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Math
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -80,7 +116,7 @@ build CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj: CXX_COMPILER__BlackholeSi
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Math\Tensor.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Math
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -89,7 +125,7 @@ build CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj: CXX_COMPILER_
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Physics\CelestialBodies.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Physics
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -98,7 +134,7 @@ build CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj: CXX_COMPILER__Blac
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Rendering.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Graphics
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -107,7 +143,7 @@ build CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj: CXX_COMPILER__Blackho
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Graphics\Camera.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Graphics
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -116,7 +152,7 @@ build CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui.cpp.obj: CXX_COMPILER__B
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Externals\imgui\imgui.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Externals\imgui
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -125,7 +161,7 @@ build CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_draw.cpp.obj: CXX_COMPIL
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Externals\imgui\imgui_draw.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Externals\imgui
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -134,7 +170,7 @@ build CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_tables.cpp.obj: CXX_COMP
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Externals\imgui\imgui_tables.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Externals\imgui
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -143,7 +179,7 @@ build CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_widgets.cpp.obj: CXX_COM
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Externals\imgui\imgui_widgets.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Externals\imgui
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -152,7 +188,7 @@ build CMakeFiles/BlackholeSim.dir/Externals/imgui/backends/imgui_impl_glfw.cpp.o
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Externals\imgui\backends\imgui_impl_glfw.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Externals\imgui\backends
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -161,7 +197,7 @@ build CMakeFiles/BlackholeSim.dir/Externals/imgui/backends/imgui_impl_opengl3.cp
   CONFIG = Debug
   DEP_FILE = CMakeFiles\BlackholeSim.dir\Externals\imgui\backends\imgui_impl_opengl3.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
+  INCLUDES = -IC:/Users/ryans/Desktop/Code/BlackholeSim -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/imgui/backends -IC:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad-generated/include -IC:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-src/include
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   OBJECT_FILE_DIR = CMakeFiles\BlackholeSim.dir\Externals\imgui\backends
   TARGET_SUPPORT_DIR = CMakeFiles\BlackholeSim.dir
@@ -174,10 +210,10 @@ build CMakeFiles/BlackholeSim.dir/Externals/imgui/backends/imgui_impl_opengl3.cp
 #############################################
 # Link the executable BlackholeSim.exe
 
-build BlackholeSim.exe: CXX_EXECUTABLE_LINKER__BlackholeSim_Debug CMakeFiles/BlackholeSim.dir/main.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_draw.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_tables.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_widgets.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/backends/imgui_impl_glfw.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/backends/imgui_impl_opengl3.cpp.obj | _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a
+build BlackholeSim.exe: CXX_EXECUTABLE_LINKER__BlackholeSim_Debug CMakeFiles/BlackholeSim.dir/main.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Vector3.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Matrix4.cpp.obj CMakeFiles/BlackholeSim.dir/Math/Tensor.cpp.obj CMakeFiles/BlackholeSim.dir/Physics/CelestialBodies.cpp.obj CMakeFiles/BlackholeSim.dir/Graphics/Rendering.cpp.obj CMakeFiles/BlackholeSim.dir/Graphics/Camera.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_draw.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_tables.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/imgui_widgets.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/backends/imgui_impl_glfw.cpp.obj CMakeFiles/BlackholeSim.dir/Externals/imgui/backends/imgui_impl_opengl3.cpp.obj | libglad.a _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a libglad.a
   CONFIG = Debug
   FLAGS = -g
-  LINK_LIBRARIES = _deps/glfw-build/src/libglfw3.a  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = libglad.a  _deps/glfw-build/src/libglfw3.a  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BlackholeSim.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -660,6 +696,8 @@ build _deps/glfw-build/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}_d
 
 build BlackholeSim: phony BlackholeSim.exe
 
+build glad: phony libglad.a
+
 build glfw: phony _deps/glfw-build/src/libglfw3.a
 
 build libglfw3.a: phony _deps/glfw-build/src/libglfw3.a
@@ -676,7 +714,7 @@ build update_mappings: phony _deps/glfw-build/src/update_mappings
 #############################################
 # Folder: C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug
 
-build all: phony BlackholeSim.exe _deps/glfw-build/all
+build all: phony libglad.a BlackholeSim.exe _deps/glfw-build/all
 
 # =============================================================================
 

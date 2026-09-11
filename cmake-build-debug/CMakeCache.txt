@@ -352,6 +352,13 @@ FETCHCONTENT_UPDATES_DISCONNECTED_GLFW:BOOL=OFF
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
 
+//Directory containing glad generator CMakeLists.txt. Must be absolute.
+GLAD_CMAKE_DIR:STRING=C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad/cmake
+
+//Directory containing glad sources (python modules), used as working
+// directory. Must be absolute.
+GLAD_SOURCES_DIR:STRING=C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad/cmake/../
+
 //Value Computed by CMake
 GLFW_BINARY_DIR:STATIC=C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/_deps/glfw-build
 
@@ -618,6 +625,15 @@ Z_VCPKG_CL:FILEPATH=Z_VCPKG_CL-NOTFOUND
 // triplet
 _VCPKG_INSTALLED_DIR:PATH=C:/Users/ryans/vcpkg/installed
 
+//Value Computed by CMake
+glad_BINARY_DIR:STATIC=C:/Users/ryans/Desktop/Code/BlackholeSim/cmake-build-debug/glad_cmake
+
+//Value Computed by CMake
+glad_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+glad_SOURCE_DIR:STATIC=C:/Users/ryans/Desktop/Code/BlackholeSim/Externals/glad/cmake
+
 //Location of wxWidgets library configuration provider binary (wx-config).
 wxWidgets_CONFIG_EXECUTABLE:FILEPATH=wxWidgets_CONFIG_EXECUTABLE-NOTFOUND
 
@@ -827,10 +843,14 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 DINPUT_H_FOUND:INTERNAL=1
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][ ][v()]
+//Details about finding Python
+FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[C:/Users/ryans/AppData/Local/Programs/Python/Python313/python.exe][found components: Interpreter ][v3.13.0()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLAD_CMAKE_DIR
+GLAD_CMAKE_DIR-ADVANCED:INTERNAL=1
 //GLFW pkg-config Libs.private
 GLFW_PKG_CONFIG_LIBS_PRIVATE:INTERNAL= -lgdi32
 //GLFW pkg-config Requires.private
@@ -979,4 +999,17 @@ Z_VCPKG_CHECK_MANIFEST_MODE:INTERNAL=OFF
 Z_VCPKG_ROOT_DIR:INTERNAL=C:/Users/ryans/vcpkg
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/BlackholeSim
+//Compiler reason failure
+_Python_Compiler_REASON_FAILURE:INTERNAL=
+//Development reason failure
+_Python_Development_REASON_FAILURE:INTERNAL=
+//Path to a program.
+_Python_EXECUTABLE:INTERNAL=C:/Users/ryans/AppData/Local/Programs/Python/Python313/python.exe
+//Path to a program.
+_Python_EXECUTABLE_DEBUG:INTERNAL=_Python_EXECUTABLE_DEBUG-NOTFOUND
+//Python Properties
+_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;13;0;64;32;<none>;cp313-win_amd64;;C:\Users\ryans\AppData\Local\Programs\Python\Python313\Lib;C:\Users\ryans\AppData\Local\Programs\Python\Python313\Lib;C:\Users\ryans\AppData\Local\Programs\Python\Python313\Lib\site-packages;C:\Users\ryans\AppData\Local\Programs\Python\Python313\Lib\site-packages
+_Python_INTERPRETER_SIGNATURE:INTERNAL=f9c5f6ced2663eccfa717ce85d7be464
+//NumPy reason failure
+_Python_NumPy_REASON_FAILURE:INTERNAL=
 
