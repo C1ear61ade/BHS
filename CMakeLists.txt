@@ -45,16 +45,19 @@ target_include_directories(glad PUBLIC
 
 add_executable(BlackholeSim
 
-        main.cpp
-        Math/Vector3.cpp
-        Math/Matrix4.cpp
-        Math/Tensor.cpp
-        Physics/CelestialBodies.cpp
-        Graphics/Rendering.cpp
-        Graphics/Camera.cpp
+        src/main.cpp
+        src/Math/Vector3.cpp
+        src/Math/Matrix4.cpp
+        src/Math/Tensor.cpp
+        src/Physics/CelestialBodies.cpp
+        src/Graphics/Rendering.cpp
+        src/Graphics/Camera.cpp
 
         ${IMGUI_SOURCES}
-        Graphics/GUI-initiator.h
+        src/Graphics/GUI-initiator.h
+        src/Math/Matrix4.cpp
+        src/Math/Vector3.cpp
+        src/Math/Tensor.h
 )
 
 target_include_directories(BlackholeSim PRIVATE
